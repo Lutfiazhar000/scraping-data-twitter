@@ -3,7 +3,6 @@ import snscrape.modules.twitter as sntwitter
 import pandas as pd
 
 # query data from twitter 
-# query = "(#prayforkanjuruhan) lang:en since:2022-10-01"
 query = input("enter your keyword: ")
 tweets = []
 limit = int(input("set limit: "))
